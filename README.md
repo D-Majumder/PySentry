@@ -73,7 +73,7 @@ This script must be run as Administrator for full functionality.
 
 > *Open PowerShell or CMD → Right-click → Run as Administrator*
 
-Navigate to the project directory
+- Navigate to the project directory
 Run:
 
 ```bash
@@ -82,9 +82,7 @@ python py_sentry.py
 The main menu will appear — choose from:
 ```
 Option 1: Network Scan
-
 Option 2: Persistence Scan
-
 Option 3: Full System Audit
 ```
 ---
@@ -94,9 +92,8 @@ To fine-tune:
 ```
 Run Option 3 (Full System Audit)
 ```
-Review the “SUSPICIOUS” alerts
-
-Open py_sentry.py and add safe entries to:
+- Review the “SUSPICIOUS” alerts
+- Open py_sentry.py and add safe entries to:
 
 python
 ```
@@ -121,8 +118,8 @@ In Terminal 1, select Option 1 (Network Scan)
 ```
 ### 🎭 Demo 2: The "Impersonator" (Advanced)
 Copy python.exe from your installation folder to Downloads
-Rename it to `svchost.exe`
-Run it as a fake “system process”:
+- Rename it to `svchost.exe`
+- Run it as a fake “system process”:
 
 ```bash
 cd C:\Users\YourName\Downloads
@@ -137,10 +134,9 @@ In PySentry, choose Option 1 (Network Scan)
 ### 🧠 Learn by simulating real-world security defense scenarios.
 
 PySentry helps beginners understand:
-How EDR tools monitor system behavior
-How heuristics and process analysis can detect intrusions
-
-Why whitelisting and zero trust matter in security
+- How EDR tools monitor system behavior
+- How heuristics and process analysis can detect intrusions
+- Why whitelisting and zero trust matter in security
 
 ---
 
